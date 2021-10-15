@@ -3,7 +3,7 @@ author:   André Dietrich
 
 email:    LiaScript@web.de
 
-version:  0.0.1
+version:  0.0.2
 
 logo:     https://semanticweb.cs.vu.nl/R/sparql_hollywood/sparql_hollywood_files/Screen-Shot-2012-09-28-at-20.27.12.png
 
@@ -14,7 +14,7 @@ narrator: US English Female
 comment:  A macro library for trying and playing with SPARQL and RDF that is
           based on Communica.
 
-script:   https://cdn.jsdelivr.net/gh/liatemplates/communica@0.0.1/dist/index.js
+script:   https://cdn.jsdelivr.net/gh/liatemplates/communica@0.0.2/dist/index.js
 
 @Communica.SPARQL
 <script>
@@ -106,7 +106,7 @@ change it, as you wish.
                            {{1}}
 1. Load the macros via
 
-   `import: https://raw.githubusercontent.com/LiaTemplates/Communica/0.0.1/README.md`
+   `import: https://raw.githubusercontent.com/LiaTemplates/Communica/0.0.2/README.md`
 
 2. Copy the definitions into your Project
 
@@ -121,7 +121,7 @@ much, simply add the following comment to the head of your Markdown document.
 
 ``` markdown
 <!--
-import: https://raw.githubusercontent.com/LiaTemplates/Communica/0.0.1/README.md
+import: https://raw.githubusercontent.com/LiaTemplates/Communica/0.0.2/README.md
 -->
 
 # Title
