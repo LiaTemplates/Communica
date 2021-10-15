@@ -193,7 +193,7 @@ SELECT ?s ?p ?o WHERE {
 @Communica.SPARQL
 
 
-                          --{{1}}--
+                          --{{2}}--
 And to some extend also the errors are propagated to the user.
 
                             {{2}}
@@ -344,7 +344,7 @@ described before.
 
 ## Implementation
 
-
+                          --{{0}}--
 All the functionionality is defined within the main-comment of this document. It
 makes use of the typescript-functions defined in `src/index.ts`, which defines a
 global object `ẁindow.RDF`.
