@@ -106,7 +106,7 @@ change it, as you wish.
                            {{1}}
 1. Load the macros via
 
-   `import: https://raw.githubusercontent.com/liaTemplates/Communica/main/README.md`
+   `import: https://raw.githubusercontent.com/LiaTemplates/Communica/0.0.1/README.md`
 
 2. Copy the definitions into your Project
 
@@ -121,7 +121,7 @@ much, simply add the following comment to the head of your Markdown document.
 
 ``` markdown
 <!--
-import: https://raw.githubusercontent.com/liaTemplates/Communica/main/README.md
+import: https://raw.githubusercontent.com/LiaTemplates/Communica/0.0.1/README.md
 -->
 
 # Title
@@ -415,5 +415,13 @@ instructions:
 
                             {{1}}
 ``` bash
+$ git clone https://github.com/LiaTemplates/Communica
 
+$ cd Communica
+
+$ git checkout dev
+
+$ npm i
+
+$ npm run build
 ```
