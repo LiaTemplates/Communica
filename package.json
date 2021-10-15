@@ -1,0 +1,28 @@
+{
+  "name": "linkeddata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx parcel build",
+    "watch": "npx parcel watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "targets": {
+    "regular": {
+      "source": "src/index.ts",
+      "context": "browser",
+      "outputFormat": "global",
+      "isLibrary": false
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@comunica/actor-init-rdf-parse": "^1.22.1",
+    "@comunica/actor-init-sparql": "^1.22.2",
+    "@comunica/actor-init-sparql-rdfjs": "^1.22.2",
+    "parcel": "^2.0.0",
+    "typescript": "^4.4.4"
+  }
+}
