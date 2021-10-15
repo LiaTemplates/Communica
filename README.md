@@ -99,9 +99,9 @@ https://github.com/liaTemplates/Communica
 There are three ways to use this template. The easiest way is to use the
 `import` statement and the url of the raw text-file of the master branch or any
 other branch or version. But you can also copy the required functionionality
-directly into the header of your Markdown document, see therefor the [last
-slide](#implementation). And of course, you could also clone this project and
-change it, as you wish.
+directly into the header of your Markdown document, see therefor the
+[last slide](#implementation). And of course, you could also clone this project
+and change it, as you wish.
 
                            {{1}}
 1. Load the macros via
