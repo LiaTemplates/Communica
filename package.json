@@ -1,6 +1,6 @@
 {
-  "name": "linkeddata",
-  "version": "1.0.0",
+  "name": "communica-template",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
