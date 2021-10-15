@@ -137,7 +137,7 @@ the end of a code-block. You can define as much code-blocks as you want.
                            {{1}}
 ```` markdown
 ``` sparql
-# source: http://fragments.dbpedia.org/2015/en
+# source: https://fragments.dbpedia.org/2015/en
 
 SELECT ?s ?p ?o WHERE {
   ?s ?p <http://dbpedia.org/resource/Ukraine>.
@@ -167,7 +167,7 @@ editable. You can add as much blocks as you want to.
 
 ```` markdown
 ``` sparql
-# source: http://fragments.dbpedia.org/2015/en
+# source: https://fragments.dbpedia.org/2015/en
 
 SELECT ?s ?p ?o WHERE {
   ?s ?p <http://dbpedia.org/resource/Ukraine>.
@@ -183,7 +183,7 @@ query and go back and forth between your version.
 
                             {{1}}
 ``` sparql
-# source: http://fragments.dbpedia.org/2015/en
+# source: https://fragments.dbpedia.org/2015/en
 
 SELECT ?s ?p ?o WHERE {
   ?s ?p <http://dbpedia.org/resource/Ukraine>.
@@ -198,7 +198,7 @@ And to some extend also the errors are propagated to the user.
 
                             {{2}}
 ``` sparql
-# source: http://fragments.dbpedia.org/2015/en
+# source: https://fragments.dbpedia.org/2015/en
 
 SELECT ?s ?p ?o WHERE {
   ?s ?p <http://dbpedia.org/resource/Ukraine>
@@ -216,7 +216,7 @@ form into your code-block. If you use a one-liner, your sources have to be
 separated by one space.
 
 ``` sparql
-# source: http://fragments.dbpedia.org/2015/en
+# source: https://fragments.dbpedia.org/2015/en
 # source: https://www.rubensworks.net https://ruben.verborgh.org/profile/
 
 SELECT ?s ?p ?o WHERE {
@@ -235,7 +235,7 @@ of the form `# format: _`.
 
 ``` sparql
 # format: table
-# source: http://fragments.dbpedia.org/2015/en
+# source: https://fragments.dbpedia.org/2015/en
 
 SELECT ?s ?p ?o WHERE {
 ?s ?p <http://dbpedia.org/resource/Ukraine>.
@@ -329,7 +329,7 @@ or closed.
 ```
 ``` sparql      -SPARQL-Query
 # format: simple
-# source: http://fragments.dbpedia.org/2015/en
+# source: https://fragments.dbpedia.org/2015/en
 
 SELECT * {
   ?s ?p ?o
