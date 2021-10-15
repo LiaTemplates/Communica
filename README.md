@@ -14,7 +14,7 @@ narrator: US English Female
 comment:  A macro library for trying and playing with SPARQL and RDF that is
           based on Communica.
 
-script:   https://cdn.jsdelivr.net/gh/liatemplates/communica@0.0.2/dist/index.js
+script:   dist/index.js
 
 @Communica.SPARQL
 <script>
